@@ -1,4 +1,4 @@
-import { Navbar } from "../components/navbar";
+import { Navbar } from "../components/Navbar";
 import { Mainsection } from "../components/Mainsection";
 import { Cards } from "../components/Cards";
 import { Team } from "../components/Team";
