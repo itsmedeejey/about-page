@@ -1,36 +1,43 @@
 import { Navbar } from "../components/Navbar";
 import { Footer } from "../components/Footer";
+import Contact from "../components/ContactForm";
+
 export const ContactUs = () => {
+  
   return (
 
 <div className="overflow-hidden">
 
    <Navbar></Navbar>
    
-      <div className=" bg-beige overflow-hidden  max-w-[700px] p-10 m-4 md:m-10 rounded-lg ">
-              <div className="flex flex-col lg:flex-row gap-6 items-start max-w-7xl mx-auto">
+      <div className=" bg-beige   max-w-screen p-10 m-2 md:m-10 rounded-lg  md:block ">
+        <div className="flex flex-col lg:flex-row gap-6 items-start max-w-7xl mx-auto">
 
         <div className="flex-1 text-slate-800  space-y-4 max-w-[500px] items-center">
-          <h2 className="text-3xl md:text-4xl font-bold">Contact Us</h2>
-          <p className="text-lg ">If you have any questions, need assistance, or want to share feedback, our dedicated customer support team is here to help. We value your experience and are always ready to ensure your transactions are seamless and your information is protected at all times.</p>
-          <div className="space-y-2 list-none">
+          <h2 className="text-4xl md:text-5xl font-bold text-rblue">Contact Us</h2>
+          <p className="text-xl ">If you have any questions, need assistance, or want to share feedback, our dedicated customer support team is here to help. We value your experience and are always ready to ensure your transactions are seamless and your information is protected at all times.</p>
+          <div className="space-y-2 list-none text-lg">
             <li><a href="mailto:info@growhub.shop"><strong>Email:</strong> info@growhub.shop</a></li>
             <li><a href="tel:+917576043293"><strong>Phone:</strong> +91 75760 43293 </a></li>
           </div>
         </div>
 
 
-      <div>
-    </div>
-    </div>
+<div className=" w-full flex flex-1 rounded-xl bg-slate-200 justify-center items-center ">
 
- </div>
+ <Contact></Contact>
+</div>
+
+
+
+    </div>
+</div>
       <div className=" bg-rblue overflow-hidden  w-full p-5 md:p-10 ">
               <div className="flex flex-col lg:flex-row gap-6  max-w-7xl mx-auto">
 
-        <div className="flex-1 text-white space-y-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Our location</h2>
-          <div className="space-y-2 list-none">
+        <div className="flex-1 text-white space-y-4 pt-5">
+          <h2 className="text-4xl md:text-5xl font-bold">Our location</h2>
+          <div className="space-y-2 list-none text-lg">
             <li>GrowHub office 3rd floor, Maniram Dewan Rd, near SBI silpukhuri branch, Chenikuthi </li>
             <li>Guwahati, Assam</li>
             <li>781003</li>
