@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
   FaFacebookF,
   FaInstagram,
@@ -44,6 +45,7 @@ export const Footer = () => {
               <div className="col-span-2 md:col-span-1 hidden md:block">
                 <h3 className="font-bold mb-3 uppercase text-sm">Support</h3>
                 <ul className="space-y-2 text-lg">
+                  
                   <li><a href="/contact-us" className="hover:text-red-800">Contact Us</a></li>
                   <li><a href="/about" className="hover:text-red-800">About Us</a></li>
                   <li><a href="/SDGSection" className="hover:text-red-800">SDG Goals</a></li>
